@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XML_test</name>
+    </assembly>
+    <members>
+        <member name="T:XML_test.Annonce">
+            <summary>
+            Classe Annonce comportant les informations d'une annonce
+            </summary>
+            <remarks>Les informations de chaque annonces seront contenu dans un objet de la classe Annonce</remarks>
+        </member>
+        <member name="F:XML_test.Annonce.zipcode">
+            <summary>
+            Instantiation des variables
+            </summary>
+            <remarks>Les variables sont des "private string"</remarks>             
+        </member>
+        <member name="P:XML_test.Annonce.Zipcode">
+            <summary>
+            Getter et setter de la variable zipcode
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.City">
+            <summary>
+            Getter et setter de la variable city
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Prox">
+            <summary>
+            Getter et setter de la variable prox
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Category">
+            <summary>
+            Getter et setter de la variable category
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Type">
+            <summary>
+            Getter et setter de la variable type
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Transaction">
+            <summary>
+            Getter et setter de la variable transaction
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Price">
+            <summary>
+            Getter et setter de la variable price
+            </summary>
+        </member>
+        <member name="P:XML_test.Annonce.Description">
+            <summary>
+            Getter et setter de la variable description
+            </summary>
+        </member>
+        <member name="M:XML_test.Annonce.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,XML_test.Images)">
+            <summary>
+            Constructeur de la classe Annonce
+            </summary>       
+            <param name="zipcode"></param>
+            <param name="city"></param>
+            <param name="prox"></param>
+            <param name="category"></param>
+            <param name="type"></param>
+            <param name="transaction"></param>
+            <param name="price"></param>
+            <param name="description"></param>       
+            <param name="image"></param>
+        </member>
+        <member name="M:XML_test.Annonce.ToString">
+            <summary>
+            Méthode ToString() qui permet d'afficher tous les éléments d'un objet
+            </summary>
+            <returns>retourne les informations d'une annonce</returns>
+        </member>
+        <member name="M:XML_test.Annonce.getImage">
+            <summary>
+            Méthode get de ListeImage
+            </summary>
+            <returns>La valeur des Images dans la liste</returns>
+        </member>
+        <member name="M:XML_test.Annonce.setImage(System.String)">
+            <summary>
+            Initialise la valeur des images
+            </summary>
+            <param name="filename"></param>
+        </member>
+        <member name="M:XML_test.Annonce.Afficher">
+            <summary>
+            Méthode qui affiche les valeurs des objets contenus dans la liste ListeImage
+            </summary>
+            <returns>la valeur de chaque objet Images</returns>
+        </member>
+        <member name="M:XML_test.Form1.#ctor">
+            <summary>
+            Initialisation de la fenêtre
+            </summary>
+        </member>
+        <member name="F:XML_test.Form1.XmlDoc">
+            <summary>Instanciation et initialisation des variables</summary>
+        </member>
+        <member name="M:XML_test.Form1.Form1_Load(System.Object,System.EventArgs)">
+            <summary>Chargement du fichier XML au chargement de la fenêtre et recupération des différents éléments à afficher</summary>
+        </member>
+        <member name="M:XML_test.Form1.TimerCallback(System.Object)">
+            <summary>
+            Fonction d'appel du timer
+            </summary>
+            <remarks>On execute dans cette fonction l'affichage des différents éléments</remarks>
+            <param name="state"></param>
+        </member>
+        <member name="F:XML_test.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:XML_test.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:XML_test.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:XML_test.Images.#ctor(System.String)">
+            <summary>
+            Constructeur de la classe Image
+            </summary>
+            <remarks>Initialise la variable "filename"</remarks>
+            <param name="filename"></param>
+        </member>
+        <member name="M:XML_test.Images.Afficher">
+            <summary>
+            Méthode Afficher de la classe Images
+            </summary>
+            <returns>la valeur du filename</returns>
+        </member>
+        <member name="M:XML_test.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:XML_test.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:XML_test.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:XML_test.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+    </members>
+</doc>
